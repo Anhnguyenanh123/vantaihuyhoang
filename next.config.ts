@@ -6,11 +6,12 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "taxitailongthanh.com",
-        pathname: "/wp-content/uploads/**",
+        pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "**.vnecdn.net",
+        pathname: "/**",
       },
       {
         protocol: "https",

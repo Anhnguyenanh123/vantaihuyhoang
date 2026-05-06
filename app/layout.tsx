@@ -29,9 +29,7 @@ export default function RootLayout({
       lang="vi"
       className={`${beVietnamPro.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-(family-name:--font-be-vietnam-pro)">
-        {children}
-      </body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }
